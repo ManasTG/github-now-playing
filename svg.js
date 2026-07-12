@@ -1,9 +1,4 @@
-import fs from "node:fs";
-
-const coverArt = `data:image/jpeg;base64,${fs
-    .readFileSync("./public/default_2.jpg")
-    .toString("base64")}`;
-
+const coverArt = "https://images.unsplash.com/photo-1557682250-33bd709cbe85?q=80&w=300&auto=format&fit=crop";
 export function generateSvg(track) {
     const { title, artist, isPlaying } = track;
 
@@ -43,7 +38,7 @@ export function generateSvg(track) {
     <rect width="450" height="120" rx="8" fill="url(#bg-gradient)" stroke="#374151" stroke-width="1"/>
 
     <image
-    href="${coverArt}"
+    href="${coverArt.replace(/&/g, '&amp;')}"
     x="20"
     y="20"
     width="80"
