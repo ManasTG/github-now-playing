@@ -8,7 +8,9 @@ This side project was built to showcase my currently listening music on Github R
 
 So, This project scrobbles music data form the musical platform of your liking using Last.fm (more on that later on). And then after deploying the project on vercel and adding it to your profile it would display the Now-Playing Music.
 
-[INSERT IMAGE]
+<img width="400" height="109" alt="Screencast_20260714_041830" src="https://github.com/user-attachments/assets/557a848c-6ff2-41b8-87ee-ad9d5f35e099" /> 
+<br>
+<img width="400" height="109" alt="Screenshot_20260714_042238" src="https://github.com/user-attachments/assets/b23a8d05-935c-4cad-bbf4-b36791803d7c" />
 
 ---
 
