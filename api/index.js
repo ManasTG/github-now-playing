@@ -1,5 +1,5 @@
-import { getCurrentTrack } from "../lastfm.js";
-import { generateSvg } from "../svg.js";
+import { getCurrentTrack } from "../lastfm/lastfm.js";
+import { generateSvg } from "../theme/svg.js";
 
 export default async function handler(req, res) {
     const track = await getCurrentTrack();

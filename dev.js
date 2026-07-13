@@ -1,6 +1,6 @@
 import http from "node:http";
-import { getCurrentTrack } from "./lastfm.js";
-import { generateSvg } from "./svg.js";
+import { getCurrentTrack } from "./lastfm/lastfm.js";
+import { generateSvg } from "./theme/svg.js";
 
 http.createServer(async (req, res) => {
 
